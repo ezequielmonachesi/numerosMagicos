@@ -1,7 +1,6 @@
 let comenzarJuego = document.querySelector("#comenzarJuego");
 let form = document.querySelector(`form`);
 let nRandom = 0;
-let valorInput;
 comenzarJuego.addEventListener("click", () => {
   nRandom = getRandomIntInclusive(1, 5);
 });
