@@ -30,13 +30,11 @@
             Al hacer click en comenzar el juego, el sistema elegirá un número
             aleatorio entre el 1 y el 5.
           </p>
-          <form action="">
-            <aside class="mt-4">
-              <button type="button" class="btn btn-dark" id="comenzarJuego">
-                Comenzar el juego
-              </button>
-            </aside>
-          </form>
+          <aside class="mt-4">
+            <button type="button" class="btn btn-dark" id="comenzarJuego">
+              Comenzar el juego
+            </button>
+          </aside>
         </article>
         <article
           class="container text-center d-flex flex-column justify-content-center my-5"
@@ -46,10 +44,12 @@
             adivinar el número elegido por el sistema.
           </p>
           <aside class="mt-4">
-            <input type="number" class="mx-2" name="numero" />
-            <button type="submit" class="btn btn-dark mx-2" id="enviar">
-              Enviar
-            </button>
+            <form action="">
+              <input type="number" class="mx-2" name="numero" />
+              <button type="submit" class="btn btn-dark mx-2" id="enviar">
+                Enviar
+              </button>
+            </form>
           </aside>
         </article>
       </section>
