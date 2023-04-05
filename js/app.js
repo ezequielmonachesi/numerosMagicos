@@ -2,7 +2,7 @@ let comenzarJuego = document.querySelector('#comenzarJuego');
 let nRandom = 0;
 
 comenzarJuego.addEventListener('click', ()=>{
-    nRandom = Math.floor(Math.random() * 5) + 1;
+    nRandom = getRandomIntInclusive(1, 5)
 } )
 
 let input = document.querySelector('input[name="numero"]');
@@ -25,3 +25,10 @@ enviar.addEventListener('click',()=>{
     }
 }
 )
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+  
