@@ -1,7 +1,10 @@
-# Ejercicio de Números Mágicos 🔢
+# Números Mágicos 🔢
 
-Ejercicio N°1 del tp DOM y BOM.
+Hice un ejercicio de números mágicos utilizando DOM
 
+## Demo 🔗
+
+[NúmerosMágicos!](numerosmagicosrc.netlify.app) ✅
 ## Herramientas 🛠️
 
 - Html
